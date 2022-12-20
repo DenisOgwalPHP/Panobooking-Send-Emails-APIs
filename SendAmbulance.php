@@ -13,7 +13,7 @@ function test_input($data)
 $to = test_input(trim($_GET['hotelemail']));
 $booknotes =test_input($_GET['bookingnotes']);
 
-$messsage = "Dear esteemed Partner, Your ambulance is urgently needed for rescue Service.Kinly Complete this order by confirming on your Panobooking Dashboard. or Reach out to 0741822377 for further details";
+$messsage = "Dear esteemed Partner, Your ambulance is urgently needed for rescue Service.Kindly Complete this order by confirming on your Panobooking Dashboard. or Reach out to 0741822377 for further details";
 
 require_once('connect.php');
 $sales6 ="SELECT TelephoneNumber FROM `ambulances` where EmailAddress='".$to."'";
